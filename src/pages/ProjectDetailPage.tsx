@@ -55,7 +55,7 @@ const ProjectDetailPage = () => {
             </div>
 
             <h3 className="text-xl font-semibold mb-4">Understanding the Problem </h3 >
-                        <h3 className="text-xl font-semibold mb-4">Understanding the Problem </h3 >
+                        <h2 className="text-xl font-semibold mb-4">Act I: A Crisis of Connection </h2 >
             
             <p className="text-gray-600 mb-4">
               My research approach included user interviews, competitive analysis, and usability testing to gather comprehensive insights about user needs and pain points.
