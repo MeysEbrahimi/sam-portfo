@@ -1,4 +1,4 @@
-import  { Project } from "../types";
+import { Project } from "../types";
 
 export const projects: Project[] = [
   {
@@ -7,7 +7,7 @@ export const projects: Project[] = [
     slug: "saman-bank-redesign",
     category: "UX/UI Design",
     description: "Rebuilt culture during the pandemic with an innovative social platform redesign.",
-    imageUrl: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    imageUrl: "https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/ed73d2ff-3765-4f26-73c2-fcf94926c500/public",
     featured: true
   },
   {
@@ -53,4 +53,3 @@ export const projects: Project[] = [
     imageUrl: "https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   }
 ];
- 
