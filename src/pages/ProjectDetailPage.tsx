@@ -58,7 +58,8 @@ const ProjectDetailPage = () => {
                         <h2 className="text-xl font-semibold mb-4">Act I: A Crisis of Connection </h2 >
             
             <p className="text-gray-600 mb-4">
-              My research approach included user interviews, competitive analysis, and usability testing to gather comprehensive insights about user needs and pain points.
+             Business Context: Saman Bank relied on WhatsApp for internal communication, causing fragmented workflows, security risks, and low psychological safety.
+Employees avoided feedback due to social and hierarchical norms (تَعارُف culture) and fear of retaliation.ncluded user interviews, competitive analysis, and usability testing to gather comprehensive insights about user needs and pain points.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="bg-gray-50 p-6 rounded-lg">
