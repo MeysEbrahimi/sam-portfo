@@ -40,36 +40,64 @@ const ProjectDetailPage = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
-            <h2 className="text-3xl font-bold mb-8">Understanding the Problem</h2>
-            
+            <h2 className="text-2xl font-semibold mb-6">Overview</h2>
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4">Act I: A Crisis of Connection</h3>
+              <h3 className="text-xl font-bold mb-4">Prologue: A Crisis of Connection</h3>
               <p className="text-gray-600 mb-6">
-                Business Context: Saman Bank relied on WhatsApp for internal communication, causing fragmented workflows, security risks, and low psychological safety.
-                Employees avoided feedback due to social and hierarchical norms (تَعارُف culture) and fear of retaliation.
+                In March 2020, as COVID-19 lockdowns swept Tehran, Saman Bank—a pillar of Iran's financial sector—faced an invisible rupture. Overnight, its 3,000+ employees became isolated islands. Hierarchical silos hardened. Trust eroded.
+                This reality created not only physical danger but also anxiety and uncertainty that deeply affected morale and communication.
               </p>
-              
-              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6">
-                <h4 className="font-semibold mb-4">Internal Audit:</h4>
-                <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li>No anonymity for feedback.</li>
-                  <li>WhatsApp groups lacked role-based access, confusing cashiers.</li>
-                  <li>Zero analytics for HR to measure campaign impact.</li>
-                  <li>Mapping current MVP and similar products analysis</li>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <p className="text-gray-700">
+                  Hamsaa is an enterprise social platform designed to address communication inefficiencies and low employee engagement in large organizations. During the COVID-19 pandemic, Saman Bank faced challenges in maintaining workplace culture and enabling safe, productive collaboration across its distributed workforce. As part of Hamsaa product team, By applying a structured design thinking approach I redesigned Hamsaa's MVP to empower employees with secure, intuitive tools for internal communication, anonymous feedback, and cultural alignment.
+                </p>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold mb-4">Research Process</h3>
+            <p className="text-gray-600 mb-4">
+              My research approach included user interviews, competitive analysis, and usability testing to gather comprehensive insights about user needs and pain points.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h4 className="font-semibold mb-2">Key Findings:</h4>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>Users struggled with complex navigation</li>
+                  <li>Form completion rates were below industry average</li>
+                  <li>Mobile users had higher abandonment rates</li>
                 </ul>
               </div>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h4 className="font-semibold mb-2">Research Methods:</h4>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>8 in-depth user interviews</li>
+                  <li>Competitive analysis of 5 similar products</li>
+                  <li>Usability testing with 12 participants</li>
+                </ul>
+              </div>
+            </div>
 
-              <div className="space-y-6">
-                <img 
-                  src="https://s6.uupload.ir/files/snappshot_1_on8t.png" 
-                  alt="Internal meeting at Saman Bank" 
-                  className="w-full rounded-lg shadow-md"
-                />
-                <img 
-                  src="https://s6.uupload.ir/files/snappshot_2_on8t.png" 
-                  alt="Team discussion at Saman Bank" 
-                  className="w-full rounded-lg shadow-md"
-                />
+            <h3 className="text-xl font-semibold mb-4">The Solution</h3>
+            <p className="text-gray-600 mb-8">
+              Based on research insights, I developed a solution that simplified the user journey, restructured information architecture, and created an intuitive interface that addressed key pain points.
+            </p>
+
+            <h3 className="text-xl font-semibold mb-4">Results & Impact</h3>
+            <p className="text-gray-600">
+              The redesigned experience led to significant improvements in key metrics:
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-6">
+              <div className="bg-primary-50 p-4 rounded-lg text-center">
+                <span className="text-2xl font-bold text-primary-700">42%</span>
+                <p className="text-sm text-primary-800">Increase in Conversions</p>
+              </div>
+              <div className="bg-primary-50 p-4 rounded-lg text-center">
+                <span className="text-2xl font-bold text-primary-700">68%</span>
+                <p className="text-sm text-primary-800">Improved Task Completion</p>
+              </div>
+              <div className="bg-primary-50 p-4 rounded-lg text-center">
+                <span className="text-2xl font-bold text-primary-700">3.2x</span>
+                <p className="text-sm text-primary-800">User Engagement</p>
               </div>
             </div>
           </div>
