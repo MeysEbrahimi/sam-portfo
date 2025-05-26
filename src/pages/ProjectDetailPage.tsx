@@ -41,14 +41,18 @@ const ProjectDetailPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
             <h2 className="text-2xl font-semibold mb-6">Overview</h2>
-            <p className="text-gray-600 mb-8">
-              {project.description} This case study walks through my design process from research to final implementation, highlighting key insights and decisions made along the way.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-4">The Challenge</h3>
-            <p className="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget aliquam ultricies, nisl nisl aliquam nisl, eget aliquam nisl nisl eget. Nullam euismod, nisl eget aliquam ultricies, nisl nisl aliquam nisl, eget aliquam nisl nisl eget.
-            </p>
+            <div className="mb-8">
+              <h3 className="text-xl font-bold mb-4">Prologue: A Crisis of Connection</h3>
+              <p className="text-gray-600 mb-6">
+                In March 2020, as COVID-19 lockdowns swept Tehran, Saman Bank—a pillar of Iran's financial sector—faced an invisible rupture. Overnight, its 3,000+ employees became isolated islands. Hierarchical silos hardened. Trust eroded.
+                This reality created not only physical danger but also anxiety and uncertainty that deeply affected morale and communication.
+              </p>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <p className="text-gray-700">
+                  Hamsaa is an enterprise social platform designed to address communication inefficiencies and low employee engagement in large organizations. During the COVID-19 pandemic, Saman Bank faced challenges in maintaining workplace culture and enabling safe, productive collaboration across its distributed workforce. As part of Hamsaa product team, By applying a structured design thinking approach I redesigned Hamsaa's MVP to empower employees with secure, intuitive tools for internal communication, anonymous feedback, and cultural alignment.
+                </p>
+              </div>
+            </div>
 
             <h3 className="text-xl font-semibold mb-4">Research Process</h3>
             <p className="text-gray-600 mb-4">
