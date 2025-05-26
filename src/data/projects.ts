@@ -7,7 +7,7 @@ export const projects: Project[] = [
     slug: "saman-bank-redesign",
     category: "UX/UI Design",
     description: "Rebuilt culture during the pandemic with an innovative social platform redesign.",
-    imageUrl: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    imageUrl: "https://imgur.com/a/d7ujDnM",
     featured: true
   },
   {
