@@ -1,4 +1,4 @@
-import  { useParams, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { projects } from '../data/projects';
 import { ArrowLeft, Clock, Users, FileText } from 'lucide-react';
 
@@ -30,7 +30,7 @@ const ProjectDetailPage = () => {
       </div>
 
       <div className="container-custom py-12">
-        <div className="aspect-w-16 aspect-h-9 mb-12">
+        <div className="max-w-2xl mx-auto mb-12">
           <img 
             src={project.imageUrl} 
             alt={project.title} 
@@ -144,4 +144,3 @@ const ProjectDetailPage = () => {
 };
 
 export default ProjectDetailPage;
- 
